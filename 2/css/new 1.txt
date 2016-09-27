@@ -1,0 +1,232 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #f8fafa;
+	font-family: Trebuchet MS;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background: rgba(255, 255, 255, 1);
+	top: 0;
+	-webkit-box-shadow: 0px 7px 3px 0px rgba(193,208,210,0.7);
+	-moz-box-shadow: 0px 7px 3px 0px rgba(193,208,210,0.7);
+	box-shadow: 0px 7px 3px 0px rgba(193,208,210,0.7);
+}
+
+.logo{
+	margin: 10px;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.column-left {
+	width: 50%;
+	float: left;
+}
+.column-right {
+	width: 45%;
+	float: right;
+}
+
+main .section-info .column-left .courseFor span{
+	float: left;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+main {
+	width: 1000px;
+	margin: 130px auto 0 auto;
+}
+
+main .section-info p {
+	margin: 0;
+	text-indent: 30px;
+}
+
+main .section-info .column-left span {
+	display: block;
+	text-align: center;
+}
+
+main .section-info .frontend {
+	color: #E7662B;
+	font-weight: bold;
+	font-size: 40px;
+	position: relative;
+	padding-top: 15px;
+}
+
+main .section-info .frontend::before {
+	content: attr(data-text);
+	color: #CDE9ED;
+	position: absolute;
+	z-index: -1;
+	font-size: 60px;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.circle {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.circle.circle-fill {
+	background: #FF6621;
+}
+
+.circle.circle-empty {
+	display: inline-block;
+	border: 2px solid #FF6621;
+}
+
+#cursStart {
+	float: right;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.centerText{
+	font-size: 30px;
+}
+
+.coolText{
+	color: #00CDCD;
+}
+
+.border {
+	float: right;
+	width: 100%;
+	border: 10px solid #FF6621;
+	padding: 15px;
+	margin: 2px;
+}
+
+.border .column-left p{
+	text-align: center;
+}
+
+.border .column-right p{
+	text-align: center;
+}
+
+.border .centerText{
+	margin: 20px;
+}
+
+button {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 25px;
+	padding: 15px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #1C1C1C;
+	color: white;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+ }
+
+main .buttonRegister{
+	margin: 440px 0 0 300px;
+	position:absolute;
+ }
+ 
+.buttonRegister button {
+	background-color: #00CDCD;
+}
+
+.buttonRegister button:hover {
+	background-color: #008B8B;
+}
+
+.program {
+	float: right;
+	width: 1000px;
+	text-align: center;
+	margin-top: 570px;
+	color: #E7662B;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	padding-top: 15px;
+}
+
+.program::before {
+	content: attr(data-text);
+	color: #E8E8E8;
+	position: absolute;
+	font-weight: bold;
+	z-index: -1;
+	font-size: 80px;
+	left: 0;
+	right: 0;
+	top: -20px;
+}
+
+main .narrowСolumn-left {
+	margin: 700px 0 0 auto;
+	width: 300px;
+	float: left;
+	position: absolute;
+	color: white;
+	background: #FF6621;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+}
+
+main .narrowСolumn-center {
+	margin: 700px 0 0 310px;
+	width: 300px;
+	float: none;
+	position: absolute;
+	color: white;
+	background: #FF6621;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+}
+
+main .narrowСolumn-right {
+	margin: 700px 0 0 620px;
+	width: 300px;
+	float: right;
+	position: absolute;
+	color: white;
+	background: #FF6621;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.cursProgram hr {
+    border: none;
+    background-color: #008B8B;
+    height: 1px;
+}
+.about {
+	color: black;
+	background: #ffffff;
+	text-align: left;
+	line-height: 2;
+	padding-top: 5px;
+}
+
+
+
+
+

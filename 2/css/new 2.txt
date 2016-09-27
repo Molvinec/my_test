@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A-level_Front End</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo column-left">
+				<a href="/"><img src="img/logo.png" width="25%" height="25%" alt=""></a>
+			</div>
+			<div class="info column-right">
+				<span>+38-068-81-13-262<br /></span>
+				<span>+38-050-14-43-732</span>
+			</div>
+		</header>
+
+		<main>
+			<section class="section-info">
+				<div class="column-left">
+					<span class="course">Курс</span>
+					<span class="frontend" data-text="Front-end >">Front-end</span>
+
+					<div class="level">
+						<span>Сложность:</span>
+						<i class="circle circle-fill"></i>
+						<i class="circle circle-fill"></i>
+						<i class="circle circle-fill"></i>
+						<i class="circle circle-empty"></i>
+						<i class="circle circle-empty"></i>
+					</div>
+					<div class="courseFor">
+						<span>Для кого курс: </span>
+							<ul>
+								<br /><li>- для всех желающих стать front-end разработчиком</li>
+							</ul>
+					</div>
+				</div>
+				<div class="column-right">
+					<p>Front-end разработка – это созданием клиентской части сайта. Front-end разработчик занимается версткой шаблона сайта и созданием пользовательского интерфейса. Обычно front-end разработчик – это мастер на все руки. Он просто обязан обладать талантом дизайнера, быть искусным верстальщиком и хорошим программистом.</p>
+					<p>Современный front-end developer должен в совершенстве владеть html5, css3, JavaScript (JQuery – как минимум). У каждого front-end спеца есть свои наработки, которые он хранит в виде framework.</p>
+				</div>
+			</section>
+			<div class="centerText">
+				<p id="cursStart">До старта курса осталось: <span class="coolText">0Ч 0М<span><p>
+			</div>
+			<div class="border">
+				<div class="column-left">
+					<p>Стоимость:<span class="centerText">5400 гривен<span></p>
+					<p>Продолжительность:<span class="centerText">3 месяца<span></p>
+				</div>
+				<div class="column-right">
+					<p>Старт:<span class="centerText">16.09.2016<span></p>
+					<p>В неделю:<span class="centerText">2 раза<span></p>
+				</div>
+			</div>
+			<div class="buttonRegister">
+				<button>Записаться на курс</button>
+			</div>
+			<div class="program" data-text="ПРОГРАММА КУРСА">
+			<span>ПРОГРАММА КУРСА</span>
+			</div>
+			<section class="cursProgram">
+				<div class="narrowСolumn-left">
+					<span class="course">1 месяц</span>
+					<!--<hr>-->
+					<div class="about">
+						<ul>
+							<li>Введение в WEB;</li>
+							<li>Основы HTML;</li>
+							<li>Основы CSS;</li>
+							<li>Семантическая верстка;</li>
+							<li>Адаптивная верстка;</li>
+							<li>Подключение CSS фреймворка;</li>
+							<li>Основы работы с GIT;</li>
+							<li>Модуль № 1;</li>
+						</ul>
+					</div>
+				</div>
+				<div class="narrowСolumn-center">
+					<span class="course">2 месяц</span>
+					<!--<hr>-->
+					<div class="about">
+						<ul>
+							<li>Основы JavaScript;</li>
+							<li>Переменные, функции, математические задачи;</li>
+							<li>События, селекторы;</li>
+							<li>Обработка событий;</li>
+							<li>Библиотека jQuery;</li>
+							<li>Циклы, условия, массивы, объекты;</li>
+							<li>Модуль № 2;</li>
+						</ul>
+					</div>
+				</div>
+				<div class="narrowСolumn-right">
+					<span class="course">3 месяц</span>
+					<!--<hr>-->
+					<div class="about">
+						<ul>
+							<li>Создание jQuery плагинов;</li>
+							<li>Введение в AJAX;</li>
+							<li>Изучение Rest API;</li>
+							<li>Обработка данных;</li>
+							<li>Создание SPA;</li>
+							<li>Экзамен;</li>
+						</ul>
+					</div>					
+				</div>
+			</section>
+		</main>
+
+	</div>
+</body>
+</html>
