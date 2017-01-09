@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Countries</title>
+        <link rel="stylesheet" href="views/chosen.css">
+        <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="dataForm">
+            <form>
+                <p><input type="text" class="name" name="login" size="40" maxlength="30" placeholder="Логин" required></p>
+                <p id="email"><input type="email" class="email" name="email" size="40" maxlength="30" placeholder="e-mail" required></p>
+                <div class="location">
+                    <select class="region-select">
+                    </select>
+                </div>
+				<p><input type="submit" name="submit" value="Зарегистрироваться"></p>
+                <p><input type="reset" name="reset" value="Сброс"></p>
+            </form>
+        </div>
+
+    </body>
+        <script src="controllers/chosen.jquery.js"></script>
+        <script src="controllers/region_controllers.js"></script>
+        <script src="controllers/user_controllers.js"></script>
+    
+</html>
